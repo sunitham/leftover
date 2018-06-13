@@ -1,0 +1,45 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="../../../assets/images/logo.png" width="50px" heigth="50px" /></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a [routerLink]="['/home']"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a [routerLink]="['/pick']"><span class="glyphicon glyphicon-transfer"></span> PickMe</a></li>
+        <li><a [routerLink]="['/about']"><span class="glyphicon glyphicon-info-sign"></span> AboutUs</a></li>
+
+        <!-- Dropdown -->
+   <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Donate<span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a [routerLink]="['/donate']"><span class="glyphicon glyphicon-cutlery"></span><span></span>FOOD</a></li>
+        <li><a [routerLink]="['/donate']"><span class="glyphicon glyphicon-hand-right"></span> CLOTHES</a></li>
+        <li><a [routerLink]="['/donate']"><span class="glyphicon glyphicon-asterisk"></span> TOYS</a></li>
+      </ul>
+    </li>
+
+       
+        <li><a [routerLink]="['/contact']"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      </ul>
+     <label style="color: powderblue;font-size: 40px"> Welcome to LEFT OVERS</label>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a [routerLink]="['/login']"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+  

@@ -1,0 +1,33 @@
+<div class="container al">
+   <!-- <div style="text-align:center;text-decoration-color: black">
+      <h1>
+       Left Overs{{name}}
+      </h1>
+    </div>-->
+  
+    <div class="alert alert-primary centeredtext">
+      Note: For You that can be<strong > waste </strong>but For Someone that is a <strong>Basic need!!!!!!</strong>
+    </div>
+    <div>
+      <div class="text-left"  >
+        <button [disabled]="isTracking" class="btn btn-primary" (click)="findMe()">Pickup From</button>
+        <button class="btn btn-primary" (click)="trackMe()">Track me</button>
+      </div>
+      <!--<div class="text-white">
+        <span>Longitude: {{currentLong}}</span>
+        <span>Longitude: {{currentLong}}</span>
+      </div>-->
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-left">
+            <h3>
+              <div #gmap style="width:20%;height:300px; "></div>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+  </div>
